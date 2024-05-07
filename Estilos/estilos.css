@@ -1,0 +1,87 @@
+
+*{
+  font-family: "bebas neue", sans-serif;
+  box-sizing: border-box;
+  margin: 0%;
+
+}
+
+.contenido{
+  font-size: 1em;
+	margin-left: 0px;
+	margin-right: 0px;
+  font-size: 1em;/*medida relativa de texto, toma referencia el tamaño del texto del contenedor (fontzize 8px-1em=8px, 2em=16px, etc */
+  text-align: justify;
+  text-decoration: none;
+}
+
+h1{font-size: 3.5em;color: aliceblue;align-items: end;}
+h2{font-size: 2.5em;}
+h3{font-size: 2em;}
+
+
+a{text-decoration: none;}
+a:link{color: black;}
+a:visited{color: blue;}
+a:hover{color: red;text-decoration: underline 1px;}
+a:active{color: gray;}
+b{font-weight: 600;}
+table, th, td{
+    border: 1px;
+  }
+
+a.imghover:hover{
+    opacity: 0.5;
+  }
+
+  /* imagenes fondo cuerpo ---  standby  ---
+  #About{background-image: url(Imagenes/About+.png);}
+  #Work{background-image: url(Imagenes/Work+.png);}
+  #Contact{background-image: url(Imagenes/Contact+.png);}
+*/
+  footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px 0px 24px ;
+  }
+
+  #About{    
+    padding: 10px 20px 10px 20px;
+  }
+  #Work{
+    padding: 10px 20px 10px 20px;
+      }
+  #Contact{
+    padding: 10px 20px 10px 20px;
+  }
+
+  p{
+    padding: 16px 24px 8px 24px ;
+    color: black;
+    width:70%;
+
+  }
+
+  .tituloseccion{
+    background-color: antiquewhite;
+    padding-left: 24px;
+    height:auto;
+  }
+
+  .imglogocontact{
+    padding-left: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .imglogo{
+    width: 32px;
+
+  }
